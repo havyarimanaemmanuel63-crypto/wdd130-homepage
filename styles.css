@@ -1,0 +1,39 @@
+/* --- Main block styling --- */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* --- Specific styling for the profile image inside the main element --- */
+main img {
+  width: 150px;
+  height: auto;
+}
+
+/* --- Required styling for the Aside element --- */
+aside {
+  width: 250px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+   background-color: #f9f9f9;
+  color: #333;
+}
+
+/* --- Styling for the image inside the aside element --- */
+aside img {
+  width: 200px;
+  height: auto; /* Maintains the aspect ratio to prevent image distortion */
+}
+
+/* --- Resetting the padding for all paragraphs --- */
+p {
+  padding: 0;
+}
+
+/* --- Required styling for the Footer element --- */
+footer {
+     margin-top: 30px;          /* 1. Adds top margin to separate it from the main content */
+  border-top: 2px solid #333;    /* 2. Adds a top border for additional visual distinction */
+  text-align: center;        /* 3. Aligns the footer text to the center */
+}
